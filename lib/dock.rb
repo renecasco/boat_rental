@@ -1,3 +1,5 @@
+require './lib/renter'
+require './lib/boat'
 
 class Dock
   attr_reader :name,
@@ -8,5 +10,6 @@ class Dock
     @max_rental_time = max_rental_time
   end
 
-
+  def rent(boat, renter)
+  end
 end
